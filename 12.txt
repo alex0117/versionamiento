@@ -1,0 +1,87 @@
+nombres: varchar
+apellidoPaterno: varchar
+apellidoMaterno: varchar
+ci: varchar
+tipo: varchar
+login: varchar
+password: varchar
+telefono: varchar
+estado: tinyint
+fechaRegistro: timestamp
+fechaActualizacion: timestamp
+
+
+
+
+idVenta: tinyint
+numComprobante: varchar
+tipoComprobante: varchar
+total: decimal
+estado: tinyint
+fechaRegistro: timestamp
+fechaActualizacion: timestamp
+idUsuario: tinyint
+idCliente: tinyint
+
+
+
+idCliente: tinyint
+nombres: varchar
+apellidoPaterno: varchar
+apellidoMaterno: varchar
+ci: varchar
+telefono: varchar
+estado: tinyint
+fechaRegistro: timestamp
+fechaActualizacion: timestamp
+
+
+detalle_venta
+idProducto: tinyint
+idVenta: tinyint
+cantidad: tinyint
+precio_unitario: decimal
+
+
+producto
+idProducto: tinyint
+codigo: varchar
+nombre: varchar
+descripcion:
+saldo: tinyint
+imagen: varchar
+estado: tinyint
+fechaRegistro: timestamp
+fechaActualizacion: timestamp
+idCategoria: tinyint
+
+
+
+idCategoria: tinyint
+nnombre: varchar
+descripcion: varchar
+estado: tinyint
+fechaRegistro: timestamp
+fechaActualizacion: timestamp
+
+
+detalle_ingreso
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
